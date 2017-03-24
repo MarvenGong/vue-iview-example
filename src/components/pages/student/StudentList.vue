@@ -62,11 +62,11 @@
             }
         },
         mounted(){
-            axios.get("/api/test/").then(function (res) {
+            /*axios.get("/api/student").then(function (res) {
                 console.log(res);
             }).catch(function (error) {
                 console.log(error);
-            })
+            })*/
         }
     }
 </script>
